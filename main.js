@@ -107,13 +107,6 @@ const VIDEO_DATA = [
     desc: "Customer testimonial edited for a home-improvement brand.",
     cat: "testimonial",
     grad: "g2"
-  },
-  {
-    id: "1wY-4FXiud9EvlVvkvRFdqv4d3O1_Sh7o",
-    title: "Client Testimonial",
-    desc: "Testimonial edit for a service-based client.",
-    cat: "testimonial",
-    grad: "g4"
   }
 ];
 
