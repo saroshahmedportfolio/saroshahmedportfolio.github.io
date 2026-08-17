@@ -163,9 +163,11 @@
       <h2>Let's talk about your project</h2>
       <p class="section-sub center">Share a few details below and I'll follow up by email, usually within a day. Prefer to skip the form? Email me directly at <a href="mailto:visualsbysarosh@gmail.com" class="inline-link">visualsbysarosh@gmail.com</a>.</p>
 
-      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="project-form" id="contactForm" action="/thank-you.html">
-        <input type="hidden" name="form-name" value="contact">
-        <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <form method="POST" class="project-form" id="contactForm" action="https://formsubmit.co/visualsbysarosh@gmail.com">
+        <input type="hidden" name="_subject" value="New project inquiry from portfolio site">
+        <input type="hidden" name="_next" value="https://saroshahmedportfolio.github.io/thank-you.html">
+        <input type="hidden" name="_captcha" value="false">
+        <p class="hidden-field"><label>Don't fill this out: <input type="text" name="_honey"></label></p>
 
         <div class="form-row">
           <div class="form-field">
