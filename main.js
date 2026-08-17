@@ -19,8 +19,8 @@ const VIDEO_DATA = [
   },
   {
     id: "10iA-KmCQKvIRSjHjxBCb0mQdp2YjLeXi",
-    title: "Brand Intro, Long-Form",
-    desc: "Long-form intro piece for a recurring client, built to establish trust early.",
+    title: "SolarPowerMyRV, Brand Intro",
+    desc: "Long-form intro for Emily Mwaki at SolarPowerMyRV, built to establish trust early.",
     cat: "vsl",
     grad: "g5"
   },
@@ -61,8 +61,8 @@ const VIDEO_DATA = [
   },
   {
     id: "1JnJOjVDT3u5M6VlzzMgrKf3tJpJfjavo",
-    title: "Outdoor Living Brand, Product Ad",
-    desc: "Service-based ad edit for a home & outdoor living brand.",
+    title: "SKOL, Product Ad",
+    desc: "Service-based ad edit for SKOL's outdoor living line.",
     cat: "ads",
     grad: "g2"
   },
@@ -82,8 +82,8 @@ const VIDEO_DATA = [
   },
   {
     id: "1BBd-Ky_EaNRKkMmnJLoJG22j705-GIYC",
-    title: "Kitchen Design Brand, Ad",
-    desc: "Brand ad edit for a kitchen design & renovation business.",
+    title: "AnyVision, Kitchen Ad",
+    desc: "Brand ad edit for AnyVision's kitchen design line.",
     cat: "ads",
     grad: "g3"
   },
