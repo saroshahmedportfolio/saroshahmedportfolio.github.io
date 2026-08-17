@@ -177,7 +177,7 @@ em{ font-style:normal; color:var(--accent); }
 
 /* ============ Services ============ */
 .services{ padding:60px 28px 96px; }
-.service-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+.service-grid{ display:grid; grid-template-columns:repeat(4, 1fr); gap:20px; }
 .service-card{
   border:1px solid var(--card-border); border-radius:var(--radius); padding:28px;
   background:var(--bg-alt); position:relative;

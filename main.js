@@ -12,91 +12,98 @@ const VIDEO_DATA = [
   },
   {
     id: "1CZfucfqd6zAaDyNiXnpJK4r47ctky4im",
-    title: "Webinar Recording — Full Edit",
+    title: "Webinar Recording, Full Edit",
     desc: "Long-form webinar, edited down and paced for a sit-through watch.",
     cat: "vsl",
     grad: "g3"
   },
   {
     id: "10iA-KmCQKvIRSjHjxBCb0mQdp2YjLeXi",
-    title: "Brand Intro — Long-Form",
+    title: "Brand Intro, Long-Form",
     desc: "Long-form intro piece for a recurring client, built to establish trust early.",
     cat: "vsl",
     grad: "g5"
   },
   {
+    id: "1eCD_SG2iGGB_LNL5opO3__YkAq8RgjqG",
+    title: "Long-Form VSL Edit",
+    desc: "A complete video sales letter edit, built for watch time from open to close.",
+    cat: "vsl",
+    grad: "g4"
+  },
+  {
     id: "1S99LNprptORAHDfwNEfGeouyuCMsOGyR",
-    title: "“AI Is Hyped” — Talking-Head Promo",
+    title: "“AI Is Hyped,” Talking-Head Promo",
     desc: "Hook-driven opinion piece edited for retention and shareability.",
     cat: "promo",
     grad: "g2"
   },
   {
     id: "1SpTbG8LueO0gARyPpZ-WMi1DBDsAxj_Z",
-    title: "“Collapse of the Handoff” — Narrative Piece",
+    title: "“Collapse of the Handoff,” Narrative Piece",
     desc: "Story-led thought-leadership edit with layered pacing.",
     cat: "promo",
     grad: "g3"
   },
   {
     id: "1e78xV5zWIwi16coqGenWRYh0UAtMOG_k",
-    title: "Tier List — Engagement Format",
+    title: "Tier List, Engagement Format",
     desc: "List-style format built for high completion rate.",
     cat: "promo",
     grad: "g4"
   },
   {
     id: "12JNCT1WO9ZPGXmH2j8WxKNiN8CcxGp33",
-    title: "“$2,200 Invoice” — Story Hook",
+    title: "“$2,200 Invoice,” Story Hook",
     desc: "Cold-open hook edit built around a single striking detail.",
     cat: "promo",
     grad: "g5"
   },
   {
     id: "1JnJOjVDT3u5M6VlzzMgrKf3tJpJfjavo",
-    title: "Outdoor Living Brand — Product Ad",
+    title: "Outdoor Living Brand, Product Ad",
     desc: "Service-based ad edit for a home & outdoor living brand.",
     cat: "ads",
     grad: "g2"
   },
   {
     id: "1U05U-hsG_Bwlp8JcJonxGWmg8PmbuqQH",
-    title: "Kitchen Remodeling — Offer Ad",
+    title: "Kitchen Remodeling, Offer Ad",
     desc: "Direct-offer ad for a remodeling business.",
     cat: "ads",
     grad: "g1"
   },
   {
     id: "1en6LwvjQz6MZ9ascDNn7wAwitLt9ruyB",
-    title: "Bathroom Remodeling — Offer Ad",
+    title: "Bathroom Remodeling, Offer Ad",
     desc: "Local-service offer ad edited for lead generation.",
     cat: "ads",
     grad: "g4"
   },
   {
     id: "1BBd-Ky_EaNRKkMmnJLoJG22j705-GIYC",
-    title: "Kitchen Design Brand — Ad",
+    title: "Kitchen Design Brand, Ad",
     desc: "Brand ad edit for a kitchen design & renovation business.",
     cat: "ads",
     grad: "g3"
   },
   {
     id: "13Vtr5H-Gp_QXYoxNMquvTJevFUyUW69l",
-    title: "Kitchen Remodel — Client Testimonial",
+    title: "Kitchen Remodel, Client Testimonial",
     desc: "Customer testimonial, edited for warmth and credibility.",
     cat: "testimonial",
     grad: "g5"
   },
   {
-    id: "1IhNjDO_3RKrHNeM7Vwcypi8mH15Gy5xf",
-    title: "Bathroom Remodel — Client Testimonial",
-    desc: "Customer testimonial from a completed renovation project.",
+    id: "1ndm3ILQUvUZkFwaWI4j9tHTZle8gjOs4",
+    title: "Client Testimonial, Laura",
+    desc: "Customer testimonial, edited for warmth and credibility.",
     cat: "testimonial",
     grad: "g1"
   },
   {
     id: "11CtUyilV20wRjQK3W4yulRc3WebhrLoN",
-    title: "Deck & Patio — Client Testimonial",
+    title: "Deck & Patio, Client Testimonial",
     desc: "Customer testimonial edited for a home-improvement brand.",
     cat: "testimonial",
     grad: "g2"
