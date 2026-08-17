@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarosh Ahmed — Video Editor</title>
+<meta name="description" content="Sarosh Ahmed — video editor based in Pakistan. Long-form, short-form, ads and VSLs, cut for retention, pacing, and results.">
+
+<!-- Social preview (WhatsApp, LinkedIn, iMessage, etc.) -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://saroshahmedportfolio.github.io/">
+<meta property="og:title" content="Sarosh Ahmed — Video Editor">
+<meta property="og:description" content="Not just reels — I edit the whole project. Long-form, short-form, ads and VSLs, cut for retention and pacing.">
+<meta property="og:image" content="https://saroshahmedportfolio.github.io/assets/sarosh-headshot.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Sarosh Ahmed — Video Editor">
+<meta name="twitter:description" content="Not just reels — I edit the whole project.">
+<meta name="twitter:image" content="https://saroshahmedportfolio.github.io/assets/sarosh-headshot.jpg">
+
+<!-- Google Analytics (GA4) — replace G-XXXXXXXXXX with your real Measurement ID -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230b0b0d%22/><text x=%2250%22 y=%2266%22 font-size=%2255%22 font-family=%22Arial%2C sans-serif%22 font-weight=%22900%22 fill=%22%23d7ff3f%22 text-anchor=%22middle%22>S</text></svg>">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">SAROSH<span>.</span>AHMED</a>
+    <nav class="nav" id="nav">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav-cta">Let's Talk</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero wrap" id="hero">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span>Video Editor</p>
+      <h1>Not just reels — I edit the <em>whole</em> project.</h1>
+      <p class="hero-sub">Long-form, short-form, ads, VSLs — I take on the project regardless of length, and cut every one for pacing and retention. Based in Pakistan, currently editing at Cogent Labs.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-ghost">Start a Project</a>
+      </div>
+      <div class="hero-meta">
+        <div><span class="num">15</span><span class="label">Featured Edits</span></div>
+        <div><span class="num">4</span><span class="label">Formats Covered</span></div>
+        <div><span class="num">AI+</span><span class="label">Traditional Workflow</span></div>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="tape-frame vertical" data-video="1pRJsNcxKk1_Q9yk8_LuO5jsBU0vxVFRY" data-title="Showreel Cut">
+        <div class="tape-poster">
+          <span class="tc">00:00:07:12</span>
+          <button class="play-btn" aria-label="Play showreel">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <span class="tape-label">Showreel Cut</span>
+        </div>
+      </div>
+      <div class="hero-blob"></div>
+    </div>
+  </section>
+
+  <!-- LOGOS / STRIP -->
+  <section class="strip wrap">
+    <p>Recent work across &nbsp;<span>VSLs</span>&nbsp;·&nbsp;<span>Social Ads</span>&nbsp;·&nbsp;<span>Testimonials</span>&nbsp;·&nbsp;<span>Home-Service Brands</span>&nbsp;·&nbsp;<span>Talking-Head Promo</span></p>
+  </section>
+
+  <!-- WORK -->
+  <section class="work wrap" id="work">
+    <div class="section-head">
+      <p class="eyebrow"><span class="dot"></span>Selected Work</p>
+      <h2>A few edits worth watching</h2>
+      <p class="section-sub">Client names are kept generic where confidentiality applies — every clip below is real, unpaid work I cut start to finish.</p>
+    </div>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="vsl">VSL &amp; Long-Form</button>
+      <button class="filter-btn" data-filter="promo">Short-Form &amp; Promo</button>
+      <button class="filter-btn" data-filter="ads">Service Ads</button>
+      <button class="filter-btn" data-filter="testimonial">Testimonials</button>
+    </div>
+
+    <div class="grid" id="workGrid">
+      <!-- Cards injected by JS from VIDEO_DATA -->
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services wrap" id="services">
+    <div class="section-head">
+      <p class="eyebrow"><span class="dot"></span>What I Do</p>
+      <h2>Services</h2>
+    </div>
+    <div class="service-grid">
+      <div class="service-card">
+        <span class="service-index">01</span>
+        <h3>Video Editing</h3>
+        <p>Ads, VSLs, short-form and long-form edits — paced and structured to hold attention and drive a result.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-index">02</span>
+        <h3>Video Production</h3>
+        <p>End-to-end production support, from raw footage to a finished, publish-ready cut.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-index">03</span>
+        <h3>Videography</h3>
+        <p>On-location filming for brands, events, and content — including drone and handheld coverage.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-index">04</span>
+        <h3>Content Strategy</h3>
+        <p>Planning what gets made and why — mapping content to how an audience actually watches.</p>
+      </div>
+      <div class="service-card">
+        <span class="service-index">05</span>
+        <h3>Event Photography</h3>
+        <p>Photo coverage for events and brand moments, delivered alongside video where needed.</p>
+      </div>
+      <div class="service-card service-card--accent">
+        <span class="service-index">06</span>
+        <h3>AI-Assisted Editing</h3>
+        <p>Scripting and generating footage with tools like ChatGPT, Claude, and Higgsfield, layered into a traditional edit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about wrap" id="about">
+    <div class="about-media">
+      <img src="assets/sarosh-headshot.jpg" alt="Sarosh Ahmed" loading="lazy">
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow"><span class="dot"></span>About</p>
+      <h2>Sarosh Ahmed</h2>
+      <p>I'm a video editor based in Pakistan, currently editing at Cogent Labs. I take on full projects, not just short clips — direct-response VSLs, long-form content, short-form social, and service-based ads — all judged by the same standard: does it keep someone watching.</p>
+      <p>I hold a degree in Computer Science from the National College of Business Administration &amp; Economics (NCBA&amp;E). I cut in Premiere Pro and After Effects, and lately I've been going deep on AI-assisted production — scripting and generating footage with ChatGPT, Higgsfield, and Claude, then layering that into a traditional edit. Certified through the Video Editing Masterclass at Editing Skool.</p>
+      <div class="about-facts">
+        <div><h4>Based in</h4><p>Pakistan</p></div>
+        <div><h4>Currently</h4><p>Video Editor @ Cogent Labs</p></div>
+        <div><h4>Education</h4><p>BS Computer Science, NCBA&amp;E</p></div>
+        <div><h4>Tools</h4><p>Premiere Pro · After Effects · ChatGPT · Claude · Higgsfield</p></div>
+      </div>
+      <a href="https://www.linkedin.com/in/sarosh-ahmed-/" target="_blank" rel="noopener" class="btn btn-ghost small">View LinkedIn →</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact wrap" id="contact">
+    <div class="contact-inner">
+      <p class="eyebrow center"><span class="dot"></span>Get In Touch</p>
+      <h2>Let's talk about your project</h2>
+      <p class="section-sub center">Share a few details below and I'll follow up by email — usually within a day. Prefer to skip the form? Email me directly at <a href="mailto:visualsbysarosh@gmail.com" class="inline-link">visualsbysarosh@gmail.com</a>.</p>
+
+      <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="project-form" id="contactForm" action="/thank-you.html">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden-field"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-name">Name</label>
+            <input type="text" id="f-name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-field">
+            <label for="f-length">Length of your video</label>
+            <input type="text" id="f-length" name="video_length" placeholder="e.g. 30 sec, 5 min, 20+ min">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" placeholder="you@email.com" required>
+          </div>
+          <div class="form-field">
+            <label for="f-service">What do you need?</label>
+            <select id="f-service" name="service">
+              <option value="Video Editing">Video Editing</option>
+              <option value="Video Production">Video Production</option>
+              <option value="Videography">Videography</option>
+              <option value="Content Strategy">Content Strategy</option>
+              <option value="Event Photography">Event Photography</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-field">
+          <label for="f-details">Project details</label>
+          <textarea id="f-details" name="details" rows="5" placeholder="What's the project? Timeline, references, anything useful."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary large">Send Project Brief</button>
+      </form>
+
+      <div class="contact-actions">
+        <a href="mailto:visualsbysarosh@gmail.com" class="btn btn-ghost">visualsbysarosh@gmail.com</a>
+        <a href="https://www.linkedin.com/in/sarosh-ahmed-/" target="_blank" rel="noopener" class="btn btn-ghost">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© <span id="year"></span> Sarosh Ahmed. All work shown remains property of its respective clients.</span>
+    <div class="footer-links">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <div class="lightbox-inner">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <div class="lightbox-frame" id="lightboxFrame"></div>
+    <p class="lightbox-title" id="lightboxTitle"></p>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
