@@ -73,7 +73,7 @@ const VIDEO_DATA = [
     cat: "testimonial"
   },
   {
-    id: "10iA-KmCQKvIRSjHjxBCb0mQdp2YjLeXi",
+    id: "1eCD_SG2iGGB_LNL5opO3__YkAq8RgjqG",
     title: "SolarPowerMyRV, Brand Intro",
     desc: "Long-form intro for Emily Mwaki at SolarPowerMyRV, built to establish trust early.",
     cat: "vsl"
@@ -82,12 +82,6 @@ const VIDEO_DATA = [
     id: "1CZfucfqd6zAaDyNiXnpJK4r47ctky4im",
     title: "Webinar Recording, Full Edit",
     desc: "Long-form webinar, edited down and paced for a sit-through watch.",
-    cat: "vsl"
-  },
-  {
-    id: "1eCD_SG2iGGB_LNL5opO3__YkAq8RgjqG",
-    title: "Long-Form VSL Edit",
-    desc: "A complete video sales letter edit, built for watch time from open to close.",
     cat: "vsl"
   },
   {
